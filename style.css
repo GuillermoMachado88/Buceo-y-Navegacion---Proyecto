@@ -1,6 +1,6 @@
 /* Fuentes
 font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
+font-family: 'Averia Gruesa Libre', system-ui;
 Paleta de colores: 
 Fresh air #D2FEB4
 Seagreen #90F71D
@@ -14,16 +14,32 @@ Blue Deep Ocean #4D1DDE
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
+    }
 
+body{
+    background-color: #10BBEB;
+}
 .logo{
     max-width: 10vh;
 }
 
 .navbar{
-    background-color: #10BBEB;
+    background-color: #fff;
 }
 
+.navbar-nav{
+    justify-items: center;
+    align-items: center;
+}
+
+ul li a{
+    font-weight:900;
+    color: #fff;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
 .carousel{
     max-height: 80%;
 }
@@ -37,3 +53,14 @@ Blue Deep Ocean #4D1DDE
 .card-text{
     font-size: 0.8em
 }
+
+h1{
+    font-family: 'Averia Gruesa Libre', system-ui;
+    color: #fff;
+    }
+
+    .img-contacto{
+        max-width: 100px;
+        max-height: 100px;
+        border-radius: 250px;
+    }
