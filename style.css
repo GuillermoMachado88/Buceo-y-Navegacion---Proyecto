@@ -1,0 +1,39 @@
+/* Fuentes
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+Paleta de colores: 
+Fresh air #D2FEB4
+Seagreen #90F71D
+Aqua #10BBEB
+Turquiose #087CEA
+Blue Deep Ocean #4D1DDE
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    max-width: 10vh;
+}
+
+.navbar{
+    background-color: #10BBEB;
+}
+
+.carousel{
+    max-height: 80%;
+}
+
+.card-body{
+    align-content: center;
+    justify-content: center;
+    background-color: #D2FEB4;
+}
+
+.card-text{
+    font-size: 0.8em
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buceo y Navegacion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&family=Poppins:wght@300;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--Se modifica breakpoint del menú contraído a sm=576px-->
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="./index.html"><img class="logo" src="./media/logo1.jpg" alt="Logo Buceo y Navegación">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/cursos-padi.html">Cursos
+                                PADI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/especialidades.html">Especialidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/destinos.html">Destinos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Se agrega clase para ocultar el carrusel en pantallas pequeñas-->
+    <div id="carouselExampleCaptions" class="carousel slide d-none d-sm-block">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./media/cursosAguasConfinadas.jpg" class="d-block w-100" alt="Práctica en aguas confinadas">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Te acompañamos desde tus primeras inmersiones</h5>
+                    <p>Tenemos cursos para todas edades y niveles de experiencia!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./media/buceo-con-cardumen.jpg" class="d-block w-100" alt="Buzo rodeado de peces con GoPro">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Descubrí un mundo increíble bajo el agua</h5>
+                    <p>Viajá con nosotros a destinos únicos, dentro y fuera de Argentina</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./media/buceo-con-lobo-marino.JPG" class="d-block w-100" alt="Buceo con lobo marino">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Conocé y valorá la vida submarina</h5>
+                    <p>Sumá tu esfuerzo para el cuidado de la biodiversidad de nuestros océanos</p>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <main>
+        <section class="cursos">
+            <H1>Cursos PADI</H1>
+            <div class="row">
+                <div class="card col-sm-6 col-md-3">
+                    <img src="./media/equipo.jpg" class="card-img-top" alt="Equipo de buceo autónomo">
+                    <div class="card-body">
+                        <h5 class="card-title">Open Water Diver</h5>
+                        <p class="card-text">Si siempre has querido aprender a bucear, descubrir nuevas aventuras o
+                            simplemente ver el admirable mundo bajo las aguas, aquí es donde todo comienza.
+                            Entrenate y obtene una certificación con validez internacional para bucear hasta 18
+                            metros en
+                            cualquier parte del mundo.</p>
+                        <a href="./pages/cursos-padi.html#OWD" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+                <div class="card col-sm-6 col-md-3">
+                    <img src="./media/cursosAowd.png" class="card-img-top" alt="Buceo embarcado">
+                    <div class="card-body">
+                        <h5 class="card-title">Advanced Open Water Diver</h5>
+                        <p class="card-text">
+                            Entrenate y obtene una certificación con validez internacional para bucear hasta 40
+                            metros en
+                            cualquier parte del mundo.</p>
+                        <a href="./pages/cursos-padi.html#AOWD" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+                <div class="card col-sm-6 col-md-3">
+                    <img src="./media/cursosRescue.png" class="card-img-top" alt="Asistiendo a un buzo en el agua">
+                    <div class="card-body">
+                        <h5 class="card-title">PADI Rescue Diver</h5>
+                        <p class="card-text">Aprende a evitar y gestionar problemas en el agua.</p>
+                        <a href="./pages/cursos-padi.html#RD" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+                <div class="card col-sm-6 col-md-3">
+                    <img src="./media/especialidadesEfr.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Primeros Auxilios EFR</h5>
+                        <p class="card-text">Aprende los pasos y las técnicas para manejar emergencias en las que
+                            una vida corre peligro.</p>
+                        <a href="./pages/cursos-padi.html#EFR" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <H1>Próximos viajes</H1>
+        <section class="cursos">
+            <div class="row">
+                <div class="card col-sm-6 col-md-3">
+                    <img src="./media/madryn.jpg" class="card-img-top" alt="Equipo de buceo autónomo">
+                    <div class="card-body">
+                        <h5 class="card-title">Puerto Madryn</h5>
+                        <p class="card-text">La Patagonia es uno de los lugares más fascinantes y másgicos del mundo.
+                            Contiene una de las mayores tasas de biodiversidad del planeta, tanto a nivel marino como
+                            terrestre, y unos paisajes y atardeceres bellísimos.</p>
+                        <a href="./pages/destinos.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+                <div class="card col-sm-6 col-md-3">
+                    <img src="./media/galapagosImagenes.jpeg" class="card-img-top" alt="Buceo embarcado">
+                    <div class="card-body">
+                        <h5 class="card-title">Islas Galápagos</h5>
+                        <p class="card-text">
+                            Imaginate amanecer en medio de playas paradisíacas, barcos hundidos, especies y peces de
+                            todos los colores y combinaciones posibles.</p>
+                        <a href="./pages/destinos.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+                <div class="card col-sm-6 col-md-3">
+                    <img src="./media/destinosAngra3.jpeg" class="card-img-top" alt="Asistiendo a un buzo en el agua">
+                    <div class="card-body">
+                        <h5 class="card-title">Angra dos Reis</h5>
+                        <p class="card-text">Paraíso de la costa atlántica en el estado de Río de Janeiro... Nos vamos a
+                            Brasil!</p>
+                        <a href="./pages/destinos.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+                <div class="card col-sm-6 col-md-3">
+                    <img src="./media/bajaCalifornia3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Baja California Sur</h5>
+                        <p class="card-text">Bautizada como el "acuario del mundo", esta área alberga impresionantes
+                            arrecifes de coral y formaciones rocosas submarinas, con una biodiversidad única en el mundo
+                            (y una visibilidad inmejorable)</p>
+                        <a href="./pages/destinos.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
